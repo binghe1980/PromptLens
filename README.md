@@ -1,0 +1,118 @@
+<p align="center">
+  <img src="assets/promptlens-banner.png" alt="PromptLens — Turn Images Into Prompts" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/binghe1980/PromptLens/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/binghe1980/PromptLens?display_name=tag&style=flat-square&color=ff914d"></a>
+  <img alt="Chrome and Edge" src="https://img.shields.io/badge/Chrome%20%7C%20Edge-Manifest%20V3-303238?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/license-Proprietary-303238?style=flat-square">
+</p>
+
+## 中文
+
+PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析网页图片、本地图片或剪贴板截图，生成可编辑的中文、英文和 JSON 生图提示词。
+
+### 功能
+
+- 右键分析网页图片，或点击扩展图标上传、粘贴本地图片
+- 输出中文、英文和结构化 JSON 提示词
+- 场景自适应分析人物、产品、建筑、风景、插画、3D、海报、UI 等图片
+- 自动提取画面比例、主体、构图、光线、色彩、材质与风格
+- 本地历史记录、单条删除、清空和收藏保护
+- 支持多数采用 `/chat/completions` 与 `image_url` 的 OpenAI 兼容视觉模型
+
+### 下载
+
+前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip)。
+
+### Chrome 安装
+
+1. 在地址栏打开 `chrome://extensions`。
+2. 打开右上角的“开发者模式”。
+3. 点击“加载已解压的扩展程序”。
+4. 选择刚才解压得到的 `PromptLens` 文件夹。
+
+### Edge 安装
+
+1. 在地址栏打开 `edge://extensions`。
+2. 打开左侧的“开发人员模式”。
+3. 点击“加载解压缩的扩展”。
+4. 选择刚才解压得到的 `PromptLens` 文件夹。
+
+### 首次使用
+
+1. 点击浏览器工具栏中的 PromptLens 图标，再点击“设置”。
+2. 填写你的 API Base URL、API Key 和支持图片理解的模型名称。
+3. 点击“测试连接”，成功后保存配置。
+4. 在网页图片上右键选择 PromptLens，或点击扩展图标上传/粘贴图片。
+
+> PromptLens 不提供 API 额度。图片分析费用由你选择的 API 平台按照其规则收取。
+
+### 隐私与数据
+
+- API Key 保存在当前浏览器配置的本地扩展存储中，不会上传给 PromptLens 作者。
+- 图片与提示词会直接发送到你自行配置的 API 地址，请阅读对应平台的隐私条款。
+- PromptLens 不包含统计分析、广告 SDK 或作者自建中转服务器。
+- 删除历史记录时，对应的本地缩略图会一起从扩展存储中删除；普通清空会保留收藏，收藏页可单独清空收藏。
+
+### 授权说明
+
+PromptLens 不是开源软件。允许下载并使用未经修改的正式版本；禁止二次商用、出售、再分发、修改或衍生开发。完整条款见 [LICENSE](LICENSE)。
+
+浏览器的“加载已解压扩展”机制要求发布包包含运行所需的 JavaScript 和 CSS，因此无法从技术上阻止查看这些文件；这不代表获得修改、复制或再分发授权。
+
+---
+
+## English
+
+PromptLens is a Chrome / Edge reverse-prompt extension. It analyzes webpage images, local files, or clipboard screenshots and produces editable Chinese, English, and structured JSON prompts for image generation.
+
+### Features
+
+- Analyze a webpage image from the context menu, or upload/paste a local image from the toolbar
+- Generate Chinese, English, and structured JSON prompts
+- Scene-adaptive analysis for portraits, products, architecture, landscapes, illustration, 3D, posters, UI, and mixed images
+- Extract aspect ratio, subject, composition, lighting, colors, materials, and visual style
+- Local history with individual deletion, clear-all, and protected favorites
+- Works with most OpenAI-compatible vision models that support `/chat/completions` and `image_url`
+
+### Download
+
+Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.0.0.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip) is also available.
+
+### Install on Chrome
+
+1. Open `chrome://extensions`.
+2. Enable **Developer mode** in the upper-right corner.
+3. Click **Load unpacked**.
+4. Select the extracted `PromptLens` folder.
+
+### Install on Edge
+
+1. Open `edge://extensions`.
+2. Enable **Developer mode** in the sidebar.
+3. Click **Load unpacked**.
+4. Select the extracted `PromptLens` folder.
+
+### First-time setup
+
+1. Click the PromptLens toolbar icon, then open **Settings**.
+2. Enter your API Base URL, API Key, and a vision-capable model name.
+3. Test the connection and save the configuration.
+4. Right-click a webpage image and choose PromptLens, or use the toolbar to upload/paste an image.
+
+> PromptLens does not include API credits. Your chosen API provider may charge for image analysis.
+
+### Privacy and data
+
+- Your API Key is stored in the extension's local browser storage and is not uploaded to the PromptLens author.
+- Images and prompts are sent directly to the API endpoint you configure. Review that provider's privacy policy.
+- PromptLens contains no analytics, advertising SDK, or author-operated relay server.
+- Deleting a history entry also removes its local thumbnail. Normal clear-all preserves favorites; favorites can be cleared separately.
+
+### License
+
+PromptLens is not open-source software. You may download and use an unmodified official release. Commercial redistribution, resale, modification, and derivative development are prohibited. See [LICENSE](LICENSE) for the complete terms.
+
+Unpacked browser extensions necessarily contain readable JavaScript and CSS files. Their visibility does not grant permission to modify, copy, or redistribute them.
+

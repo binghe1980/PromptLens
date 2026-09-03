@@ -1,0 +1,64 @@
+PromptLens Proprietary Use License 1.0
+
+Copyright (c) 2026 PromptLens author (GitHub: @binghe1980).
+All rights reserved.
+
+By downloading, installing, copying, or using PromptLens (the "Software"),
+you agree to the terms below.
+
+1. Permission
+
+You are granted a limited, non-exclusive, non-transferable, revocable license
+to install and use unmodified official releases of the Software for personal
+use or internal workflows.
+
+2. Restrictions
+
+Unless you have separate written permission from the copyright holder, you
+may not:
+
+a. sell, rent, sublicense, monetize, host, or charge for access to the Software;
+b. redistribute, mirror, republish, bundle, or provide copies of the Software;
+c. modify, adapt, translate, reverse engineer, decompile, or create derivative
+   works from the Software, except where applicable law expressly overrides
+   this restriction;
+d. use the Software or its source materials to build, train, or provide a
+   competing or substantially similar product or service;
+e. remove or alter copyright, license, attribution, or proprietary notices;
+f. use the PromptLens name, artwork, or identity to imply endorsement.
+
+You may share the URL of the official GitHub repository or official Release
+page without redistributing the Software itself.
+
+3. Third-party services
+
+The Software connects only to API services configured by the user. Those
+services, their fees, model outputs, and their terms are separate from this
+license. The copyright holder does not provide API credits or guarantee any
+third-party service.
+
+4. Ownership
+
+The Software is licensed, not sold. The copyright holder retains all rights,
+title, and interest in the Software and its branding.
+
+5. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT. USE IS AT YOUR OWN RISK.
+
+6. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE
+LIABLE FOR ANY CLAIM, DAMAGES, DATA LOSS, API CHARGES, OR OTHER LIABILITY
+ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+7. Termination
+
+This license terminates automatically if you violate its terms. Upon
+termination, you must stop using and delete all copies of the Software.
+
+For permissions not granted here, contact the copyright holder through the
+official GitHub repository.
+
