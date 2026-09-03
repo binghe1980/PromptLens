@@ -21,6 +21,12 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 - 本地历史记录、单条删除、清空和收藏保护
 - 支持多数采用 `/chat/completions` 与 `image_url` 的 OpenAI 兼容视觉模型
 
+<p align="center">
+  <img src="assets/promptlens-interface.png" alt="PromptLens 实际使用界面 / PromptLens in action" width="100%">
+</p>
+
+<p align="center"><sub>真实使用界面 · Actual interface</sub></p>
+
 ### 下载
 
 前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip)。
@@ -115,4 +121,3 @@ Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), downl
 PromptLens is not open-source software. You may download and use an unmodified official release. Commercial redistribution, resale, modification, and derivative development are prohibited. See [LICENSE](LICENSE) for the complete terms.
 
 Unpacked browser extensions necessarily contain readable JavaScript and CSS files. Their visibility does not grant permission to modify, copy, or redistribute them.
-
