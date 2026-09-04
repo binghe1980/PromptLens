@@ -22,16 +22,22 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 - 支持多数采用 `/chat/completions` 与 `image_url` 的 OpenAI 兼容视觉模型
 
 <p align="center">
+  <img src="assets/promptlens-loading.png" alt="PromptLens 右键识图紧凑加载窗口 / PromptLens compact context-menu loading window" width="100%">
+</p>
+
+<p align="center"><sub>右键选择 PromptLens 后，以紧凑窗口分析图片。 · Right-click PromptLens to analyze an image in a compact window.</sub></p>
+
+<p align="center">
   <img src="assets/promptlens-interface.png" alt="PromptLens 实际使用界面 / PromptLens in action" width="100%">
 </p>
 
-<p align="center"><sub>真实使用界面 · Actual interface</sub></p>
+<p align="center"><sub>识别完成后，生成可直接用于生图的专业提示词。 · Get professional, generation-ready prompts when analysis finishes.</sub></p>
 
 <p align="center">
   <img src="assets/promptlens-toolbar-window.png" alt="点击 PromptLens 插件图标时弹出的窗口 / PromptLens toolbar window" width="760">
 </p>
 
-<p align="center"><sub>点击插件时，弹出窗口。</sub></p>
+<p align="center"><sub>点击插件时，弹出上传或粘贴图片窗口。 · Click the extension icon to upload or paste an image.</sub></p>
 
 ### 我正在使用的 API（友情推荐）
 
@@ -55,7 +61,9 @@ PromptLens 配置格式：
 
 ### 下载
 
-前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip)。
+前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.1.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.1.zip)。
+
+版本规则：`1.0.x` 用于修复和兼容优化，`1.x.0` 用于新增向后兼容功能，`x.0.0` 用于不兼容变更。
 
 ### Chrome 安装
 
@@ -116,7 +124,9 @@ PromptLens is a Chrome / Edge reverse-prompt extension. It analyzes webpage imag
 
 ### Download
 
-Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.0.0.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip) is also available.
+Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.0.1.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.1.zip) is also available.
+
+Versioning: `1.0.x` is for fixes and compatible refinements, `1.x.0` for backward-compatible features, and `x.0.0` for breaking changes.
 
 ### Install on Chrome
 
