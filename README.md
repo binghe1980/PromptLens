@@ -54,6 +54,26 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 
 > PromptLens 不提供 API 额度。图片分析费用由你选择的 API 平台按照其规则收取。
 
+### 识图模型建议
+
+- **质量优先：** 推荐使用支持视觉理解的最新 Pro 级多模态模型，例如 Gemini 3.1 Pro，更适合提取细节丰富、可直接用于生图的提示词。
+- **速度与成本优先：** 可以选择 Flash 级视觉模型，通常响应更快、费用更低，但复杂人物、材质和风格细节可能略少。
+- **兼容性：** 模型需要支持图片输入，以及 OpenAI 兼容的 `/chat/completions` 与 `image_url` 格式。不同平台的模型名称和权限可能不同，请先在设置中测试连接。
+
+### 我正在使用的 API（友情推荐）
+
+我自己使用的是 [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4) 的聚合型 API，一个 API Key 可以使用平台上的众多热门模型。目前我搭配 PromptLens 使用的是 `gemini-3.1-pro`，成本非常低：按我目前的实际使用情况，单张图片通常不到 **US$0.01**。实际费用会随图片、提示词长度和平台定价变化，请以 Kie AI 的实时账单为准。**有兴趣的可以尝试，友情推荐，自行判断！**
+
+PromptLens 配置格式：
+
+- **API Base URL：** `https://api.kie.ai/gemini-3.1-pro/v1`
+- **API Key：** 你自己的 API Key
+- **Model：** `gemini-3.1-pro`
+
+了解更多：[Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4)
+
+> 上述链接包含推荐参数，可能用于推广统计。请自行评估服务质量、价格和隐私政策。
+
 ### 隐私与数据
 
 - API Key 保存在当前浏览器配置的本地扩展存储中，不会上传给 PromptLens 作者。
@@ -108,6 +128,26 @@ Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), downl
 4. Right-click a webpage image and choose PromptLens, or use the toolbar to upload/paste an image.
 
 > PromptLens does not include API credits. Your chosen API provider may charge for image analysis.
+
+### Choosing a vision model
+
+- **Best quality:** Use a recent Pro-class multimodal model with vision support, such as Gemini 3.1 Pro, for detailed prompts that are ready for image generation.
+- **Lower cost and faster responses:** A Flash-class vision model is usually faster and less expensive, but may capture fewer details in complex portraits, materials, and visual styles.
+- **Compatibility:** The model must accept image input through OpenAI-compatible `/chat/completions` and `image_url`. Model names and account permissions vary by provider, so test the connection in PromptLens first.
+
+### The API I use (personal recommendation)
+
+I use the [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4) aggregated API, which provides access to many popular models with one API key. My current PromptLens model is `gemini-3.1-pro`. Based on my own recent usage, analyzing one image usually costs less than **US$0.01**. Actual cost depends on the image, prompt length, and current platform pricing. **Feel free to try it, but evaluate it for yourself.**
+
+PromptLens configuration:
+
+- **API Base URL:** `https://api.kie.ai/gemini-3.1-pro/v1`
+- **API Key:** Your own API key
+- **Model:** `gemini-3.1-pro`
+
+Learn more: [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4)
+
+> The link above contains a referral parameter that may be used for promotional attribution. Please evaluate the service, pricing, and privacy policy independently.
 
 ### Privacy and data
 
