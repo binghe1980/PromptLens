@@ -27,6 +27,26 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 
 <p align="center"><sub>真实使用界面 · Actual interface</sub></p>
 
+### 我正在使用的 API（友情推荐）
+
+我自己使用的是 [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4) 的聚合型 API，一个 API Key 可以使用平台上的众多热门模型。目前我搭配 PromptLens 使用的是 `gemini-3.1-pro`，成本非常低：按我目前的实际使用情况，单张图片通常不到 **US$0.01**。实际费用会随图片、提示词长度和平台定价变化，请以 Kie AI 的实时账单为准。**有兴趣的可以尝试，友情推荐，自行判断！**
+
+PromptLens 配置格式：
+
+- **API Base URL：** `https://api.kie.ai/gemini-3.1-pro/v1`
+- **API Key：** 你自己的 API Key
+- **Model：** `gemini-3.1-pro`
+
+了解更多：[Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4)
+
+> 上述链接包含推荐参数，可能用于推广统计。请自行评估服务质量、价格和隐私政策。
+
+<p align="center">
+  <img src="assets/promptlens-kie-ai-config.png" alt="PromptLens Kie AI 配置示例 / PromptLens Kie AI configuration example" width="760">
+</p>
+
+<p align="center"><sub>Kie AI 配置示例 · Kie AI configuration example</sub></p>
+
 ### 下载
 
 前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.0.zip)。
@@ -59,20 +79,6 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 - **质量优先：** 推荐使用支持视觉理解的最新 Pro 级多模态模型，例如 Gemini 3.1 Pro，更适合提取细节丰富、可直接用于生图的提示词。
 - **速度与成本优先：** 可以选择 Flash 级视觉模型，通常响应更快、费用更低，但复杂人物、材质和风格细节可能略少。
 - **兼容性：** 模型需要支持图片输入，以及 OpenAI 兼容的 `/chat/completions` 与 `image_url` 格式。不同平台的模型名称和权限可能不同，请先在设置中测试连接。
-
-### 我正在使用的 API（友情推荐）
-
-我自己使用的是 [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4) 的聚合型 API，一个 API Key 可以使用平台上的众多热门模型。目前我搭配 PromptLens 使用的是 `gemini-3.1-pro`，成本非常低：按我目前的实际使用情况，单张图片通常不到 **US$0.01**。实际费用会随图片、提示词长度和平台定价变化，请以 Kie AI 的实时账单为准。**有兴趣的可以尝试，友情推荐，自行判断！**
-
-PromptLens 配置格式：
-
-- **API Base URL：** `https://api.kie.ai/gemini-3.1-pro/v1`
-- **API Key：** 你自己的 API Key
-- **Model：** `gemini-3.1-pro`
-
-了解更多：[Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4)
-
-> 上述链接包含推荐参数，可能用于推广统计。请自行评估服务质量、价格和隐私政策。
 
 ### 隐私与数据
 
