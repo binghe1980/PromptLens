@@ -27,6 +27,12 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 
 <p align="center"><sub>真实使用界面 · Actual interface</sub></p>
 
+<p align="center">
+  <img src="assets/promptlens-toolbar-window.png" alt="点击 PromptLens 插件图标时弹出的窗口 / PromptLens toolbar window" width="760">
+</p>
+
+<p align="center"><sub>点击插件时，弹出窗口。</sub></p>
+
 ### 我正在使用的 API（友情推荐）
 
 我自己使用的是 [Kie AI](https://kie.ai?ref=c901b57c3461c56c8bb112b98a9c81c4) 的聚合型 API，一个 API Key 可以使用平台上的众多热门模型。目前我搭配 PromptLens 使用的是 `gemini-3.1-pro`，成本非常低：按我目前的实际使用情况，单张图片通常不到 **US$0.01**。实际费用会随图片、提示词长度和平台定价变化，请以 Kie AI 的实时账单为准。**有兴趣的可以尝试，友情推荐，自行判断！**
