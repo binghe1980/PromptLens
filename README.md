@@ -16,6 +16,7 @@ PromptLens 是一款 Chrome / Edge 图片反向提示词扩展。它可以分析
 
 - 右键分析网页图片，或点击扩展图标上传、粘贴本地图片
 - 输出中文、英文和结构化 JSON 提示词
+- 针对当前图片生成负面提示词，支持折叠查看与单独复制
 - 场景自适应分析人物、产品、建筑、风景、插画、3D、海报、UI 等图片
 - 自动提取画面比例、主体、构图、光线、色彩、材质与风格
 - 本地历史记录、单条删除、清空和收藏保护
@@ -61,9 +62,9 @@ PromptLens 配置格式：
 
 ### 下载
 
-前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.0.1.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.1.zip)。
+前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.1.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.0.zip)。
 
-版本规则：`1.0.x` 用于修复和兼容优化，`1.x.0` 用于新增向后兼容功能，`x.0.0` 用于不兼容变更。
+版本规划：当前功能版本为 `1.1.0`；`1.1.x` 用于兼容修复，下一项向后兼容的新功能使用 `1.2.0`，不兼容变更才升级到 `2.0.0`。
 
 ### Chrome 安装
 
@@ -117,6 +118,7 @@ PromptLens is a Chrome / Edge reverse-prompt extension. It analyzes webpage imag
 
 - Analyze a webpage image from the context menu, or upload/paste a local image from the toolbar
 - Generate Chinese, English, and structured JSON prompts
+- Generate image-specific negative prompts with collapsible display and separate copying
 - Scene-adaptive analysis for portraits, products, architecture, landscapes, illustration, 3D, posters, UI, and mixed images
 - Extract aspect ratio, subject, composition, lighting, colors, materials, and visual style
 - Local history with individual deletion, clear-all, and protected favorites
@@ -124,9 +126,9 @@ PromptLens is a Chrome / Edge reverse-prompt extension. It analyzes webpage imag
 
 ### Download
 
-Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.0.1.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.0.1.zip) is also available.
+Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.1.0.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.0.zip) is also available.
 
-Versioning: `1.0.x` is for fixes and compatible refinements, `1.x.0` for backward-compatible features, and `x.0.0` for breaking changes.
+Version plan: the current feature release is `1.1.0`; `1.1.x` is reserved for compatible fixes, the next backward-compatible feature release will be `1.2.0`, and breaking changes will use `2.0.0`.
 
 ### Install on Chrome
 
