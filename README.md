@@ -62,9 +62,15 @@ PromptLens 配置格式：
 
 ### 下载
 
-前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.1.0.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.0.zip)。
+前往 [Releases](https://github.com/binghe1980/PromptLens/releases/latest) 下载 `PromptLens-v1.1.1.zip`，然后解压。也可以使用[直接下载链接](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.1.zip)。
 
-版本规划：当前功能版本为 `1.1.0`；`1.1.x` 用于兼容修复，下一项向后兼容的新功能使用 `1.2.0`，不兼容变更才升级到 `2.0.0`。
+版本规划：当前版本为 `1.1.1`；`1.1.x` 用于兼容修复与质量优化，下一项向后兼容的新功能使用 `1.2.0`，不兼容变更才升级到 `2.0.0`。
+
+#### v1.1.1 更新
+
+- 修复部分 API 平台使用纯文字连接测试时显示成功、实际识图却失败，导致反复返回配置页面的问题；现在连接测试会验证真实图片输入，并且只在验证成功后保存配置。
+- 优化多场景提示词精度：根据人像、产品、建筑、设计等图片类型，自适应补充构图、光线、材质、景深和成像质感；仍保持单次模型请求，不增加额外分析轮次。
+- 修复少数网页或浏览器字体渲染状态下，语言切换与“复制”按钮文字偶发偏移的问题。
 
 ### Chrome 安装
 
@@ -126,9 +132,15 @@ PromptLens is a Chrome / Edge reverse-prompt extension. It analyzes webpage imag
 
 ### Download
 
-Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.1.0.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.0.zip) is also available.
+Open [Releases](https://github.com/binghe1980/PromptLens/releases/latest), download `PromptLens-v1.1.1.zip`, and unzip it. A [direct download link](https://github.com/binghe1980/PromptLens/releases/latest/download/PromptLens-v1.1.1.zip) is also available.
 
-Version plan: the current feature release is `1.1.0`; `1.1.x` is reserved for compatible fixes, the next backward-compatible feature release will be `1.2.0`, and breaking changes will use `2.0.0`.
+Version plan: the current release is `1.1.1`; `1.1.x` is reserved for compatible fixes and quality improvements, the next backward-compatible feature release will be `1.2.0`, and breaking changes will use `2.0.0`.
+
+#### What's new in v1.1.1
+
+- Fixed a setup loop affecting some API providers where a text-only connection test passed but real image analysis failed. Connection testing now verifies actual image input, and settings are saved only after successful validation.
+- Improved scene-adaptive prompt precision for portraits, products, architecture, and design images by selectively describing composition, lighting, materials, depth, and rendering finish. The extension still uses a single model request with no extra analysis pass.
+- Fixed occasional text alignment shifts in the language selector and **Copy** button on certain webpages or browser font-rendering states.
 
 ### Install on Chrome
 
